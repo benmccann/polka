@@ -1,4 +1,4 @@
-import http from 'http';
+import http from 'node:http';
 import { Trouter } from 'trouter';
 import { parse } from '@polka/url';
 

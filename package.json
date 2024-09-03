@@ -7,11 +7,14 @@
   },
   "scripts": {
     "build": "bun run scripts/build.ts",
+    "lint": "eslint",
     "test": "uvu -r esm -i util -i bench packages test"
   },
   "devDependencies": {
     "bump": "1.0.0-next.1",
     "bundt": "1.1.2",
+    "eslint": "^9.9.1",
+    "eslint-plugin-n": "^17.10.2",
     "esm": "3.2.25",
     "httpie": "1.1.2",
     "uvu": "0.5.1"
